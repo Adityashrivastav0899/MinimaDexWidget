@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #182845, #070b13 60%);
+  color: white;
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 30px;
+}
+
+.hero {
+  text-align: center;
+  max-width: 720px;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #b9c4d8;
+}
+
+.dex-card {
+  width: 100%;
+  max-width: 460px;
+  background: rgba(12, 20, 35, 0.92);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 14px;
+  font-weight: 700;
+}
+
+#connectBtn {
+  background: #28e0a3;
+  color: #061018;
+  padding: 12px 16px;
+}
+
+.wallet-box {
+  background: rgba(255,255,255,0.06);
+  padding: 12px;
+  border-radius: 14px;
+  margin: 16px 0;
+  font-size: 13px;
+  word-break: break-all;
+}
+
+.hidden {
+  display: none;
+}
+
+.swap-box {
+  background: rgba(255,255,255,0.06);
+  padding: 16px;
+  border-radius: 18px;
+  margin-top: 14px;
+}
+
+label {
+  display: block;
+  color: #aab6cc;
+  font-size: 13px;
+  margin: 10px 0 6px;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 14px;
+  background: #07101f;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+  color: white;
+  font-size: 16px;
+}
+
+.balance {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.switch-btn {
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 12px auto 0;
+  background: #1f2d44;
+  color: white;
+  font-size: 22px;
+}
+
+.settings {
+  margin-top: 14px;
+}
+
+.swap-main {
+  width: 100%;
+  margin-top: 18px;
+  padding: 16px;
+  background: linear-gradient(135deg, #28e0a3, #39a7ff);
+  color: #061018;
+  font-size: 17px;
+}
+
+.status-box {
+  margin-top: 16px;
+  padding: 14px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.06);
+  color: #cbd5e1;
+  font-size: 14px;
+}
